@@ -1,0 +1,41 @@
+
+
+body {
+
+    color: chartreuse;
+    background-color: rgb(15, 85, 15);
+    left: 25%;
+    position: absolute;
+     }
+  
+  
+  h1 {
+    height:50%;
+    width:50%;
+    color: chartreuse;
+    background-color: blue;
+    left: 25%;
+    position: relative;
+     }
+
+#parent {
+    width:500px;
+    height:500px;
+    background-color:white;
+    border:2px solid blue;
+    position:relative;
+}
+#div1 {position:absolute;bottom:0;right:0;background:green;width:100px;height:100px;}
+#div2 {width:100px;height:100px;position:absolute;bottom:0;left:0;background:red;}
+#div3 {width:100px;height:100px;position:absolute;top:0;right:0;background:yellow;}
+#div4 {width:100px;height:100px;position:absolute;top:0;left:0;background:gray;}
+
+img
+{
+  width: 200px;
+  height:200px;
+    background-color: blue;
+    border-radius: 100%;
+    align-content: center;
+    position: relative;
+}
